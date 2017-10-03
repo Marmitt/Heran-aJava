@@ -14,4 +14,10 @@ public class TesteFuncionario {
 
 	}
 
+	@Test
+	public void testafuncionario() {
+		Funcionario funcionario = new Funcionario();
+		funcionario.Cpf("56822346694");
+		assertEquals(funcionario.GetCpf(), "56822346694");
+	}
 }
