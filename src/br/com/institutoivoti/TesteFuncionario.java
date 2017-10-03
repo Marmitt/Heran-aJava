@@ -10,7 +10,7 @@ public class TesteFuncionario {
 	public void test() {
 		Patrao patrao = new Patrao();
 		patrao.Senha(9865);
-		assertEquals(gerente.autentica(9865), true);
+		assertEquals(patrao.autentica(9865), true);
 
 	}
 
