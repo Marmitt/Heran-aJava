@@ -2,19 +2,13 @@ package br.com.institutoivoti;
 
 public class Patrao extends Funcionario {
 
-	String nome;
-	int senha;
-	int numeroFuncionariosGere;
-
-	public String Getnome(String nomep) {
-		return nome = nomep;
-	}
-
-	public int Senha(int senhap) {
+	double senha;
+	
+	public double Senha(double senhap) {
 		return senha = senhap;
 	}
 
-	public boolean autentica(int senha) {
+	public boolean autentica(double senha) {
 		if (this.senha == senha) {
 			System.out.println("Acesso Liberado");
 			return true;
