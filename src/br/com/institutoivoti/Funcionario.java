@@ -4,7 +4,11 @@ public class Funcionario {
 
 	double salario;
 
-	public double Getsalario(double salarioFuncionario) {
-		return salario = salarioFuncionario;
+	public double GetSalario() {
+		return this.salario;
 	}
+	public double Salario(double Salario) {
+		return salario = Salario;
+	}
+	
 }

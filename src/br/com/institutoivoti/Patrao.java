@@ -3,7 +3,7 @@ package br.com.institutoivoti;
 public class Patrao extends Funcionario {
 
 	double senha;
-	
+
 	public double Senha(double senhap) {
 		return senha = senhap;
 	}

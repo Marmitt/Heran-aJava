@@ -7,7 +7,7 @@ import org.junit.Test;
 public class TesteFuncionario {
 
 	@Test
-	public void test() {
+	public void testasenha() {
 		Patrao patrao = new Patrao();
 		patrao.Senha(9865);
 		assertEquals(patrao.autentica(9865), true);
@@ -29,10 +29,9 @@ public class TesteFuncionario {
 	}
 
 	@Test
-	public void testasenha() {
-		Patrao patrao = new Patrao();
-		patrao.Senha(785645);
-		assertEquals(patrao.autentica(), true);
-		
+	public void testasalario() {
+		Funcionario funcionario = new Funcionario();
+		funcionario.Salario(1500);
+		assertEquals(funcionario.GetSalario(), 1500, 0);
 	}
 }
