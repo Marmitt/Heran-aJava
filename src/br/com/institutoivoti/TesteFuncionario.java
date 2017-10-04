@@ -7,11 +7,10 @@ import org.junit.Test;
 public class TesteFuncionario {
 
 	@Test
-	public void testasenha() {
+	public void testaSenha() {
 		Patrao patrao = new Patrao();
 		patrao.Senha(9865);
 		assertEquals(patrao.autentica(9865), true);
-
 	}
 
 	@Test
@@ -22,14 +21,14 @@ public class TesteFuncionario {
 	}
 
 	@Test
-	public void testanome() {
+	public void testaNome() {
 		Pessoa pessoa = new Pessoa();
 		pessoa.Nome("Flex");
 		assertEquals(pessoa.GetNome(), "Flex");
 	}
 
 	@Test
-	public void testasalario() {
+	public void testaSalario() {
 		Funcionario funcionario = new Funcionario();
 		funcionario.Salario(1500);
 		assertEquals(funcionario.GetSalario(), 1500, 0);

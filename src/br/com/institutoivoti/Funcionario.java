@@ -7,8 +7,9 @@ public class Funcionario {
 	public double GetSalario() {
 		return this.salario;
 	}
+
 	public double Salario(double Salario) {
 		return salario = Salario;
 	}
-	
+
 }
