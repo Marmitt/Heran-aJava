@@ -1,6 +1,6 @@
 package br.com.institutoivoti;
 
-public class Funcionario {
+public class Funcionario extends Pessoa {
 
 	double salario;
 
@@ -11,5 +11,4 @@ public class Funcionario {
 	public double Salario(double Salario) {
 		return salario = Salario;
 	}
-
 }
